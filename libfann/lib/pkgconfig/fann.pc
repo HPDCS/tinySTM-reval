@@ -1,0 +1,10 @@
+prefix=/home/silvestri/bin/libfann
+exec_prefix=/home/silvestri/bin/libfann/bin
+libdir=/home/silvestri/bin/libfann/lib
+includedir=/home/silvestri/bin/libfann/include
+ 
+Name: fann
+Description: Fast Artificial Neural Network Library
+Version: 2.2.0
+Libs: -L${libdir} -lm -lfann
+Cflags: -I${includedir}
